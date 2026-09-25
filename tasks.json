@@ -1,0 +1,17 @@
+[
+  {
+    "name": "welcome-message",
+    "action": "echo",
+    "payload": {
+      "message": "Automation starter is running successfully."
+    }
+  },
+  {
+    "name": "create-output-file",
+    "action": "write_file",
+    "payload": {
+      "path": "automation-output.txt",
+      "content": "This file was created by the basic automation starter.\n"
+    }
+  }
+]
